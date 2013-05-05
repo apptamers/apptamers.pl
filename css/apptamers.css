@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fbfbfb;
+    font-size: 13px;
+    font-family: Verdana;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family: "Alegreya",Palatino,Georgia,serif;
+    font-size: 3.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.clear { clear: both; }
+
+.main #stars {
+    text-align: center;
+    font-size: 20px;
+    color: #9d9d9d;
+}
+
+.middle {
+    background-color: #ECECEC;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #444444;
+    font-family: "Alegreya",Palatino,Georgia,serif;
+    font-size: 1.25em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.middle h1 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.section {
+    margin-top: 150px;
+    clear: both;
+}
+
+.top, .welcome, .content, .contact, .footer {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.offers .offer {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.products, .testimonials {
+    margin-top: 20px;
+}
+
+.products .product, .testimonials .testimonial {
+    margin-top: 20px;
+    padding: 10px 0;
+    clear: both;
+}
+
+.testimonials .testimonial .photo {
+    float: left;
+    margin-left: 80px;
+    width: 70px;
+}
+
+.testimonials .testimonial .recommendation {
+    float: left;
+    font-style: italic;
+    width: 640px;
+}
+
+.testimonials .testimonial .signature {
+    text-align: right;
+    font-style: normal;
+}
+
+.welcome p {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+.contact {
+    margin: 20px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2.2em;
+
+}
+
+#strip {
+    background: #037a3e;
+    width: 100%;
+    height: 5px;
+}
+
+#pl, #de {
+    display: none;
+}
+
+.social {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Verdana;
+    clear: both;
+}
+
+a {
+    font-family: Verdana;
+    color: #037a3e;
+    text-decoration: none
+}
+
+.icon-gb, .icon-de, .icon-pl {
+    display: inline-block;
+    margin: 2px 8px 2px 2px;
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.icon-gb {
+    background: url('../img/gb.png') center center no-repeat;
+}
+
+.icon-de {
+    background: url('../img/de.png') center center no-repeat;
+}
+
+.icon-pl {
+    background: url('../img/pl.png') center center no-repeat;
+}
+
+.logo {
+    float: left;
+}
+
+.links {
+    float: left;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.links a {
+    font-family: "Alegreya",Palatino,Georgia,serif;
+    font-size: 19px;
+}
+
+.languages {
+    float: right;
+    margin-top: 40px;
+}
+
+img {
+    border: none;
+}
